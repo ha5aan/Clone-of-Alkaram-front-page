@@ -1,0 +1,299 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.total-page {
+    margin: 0px;
+    padding: 0px;
+}
+
+.instruction {
+    padding: 2px 0px;
+    color: white;
+    background-color: black;
+    height: 26px;
+}
+
+.instruction p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.logo-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    min-width: 300px;
+}
+
+.t-order {
+    padding: 12.5px 5px;
+}
+
+.t-order a {
+    color: black;
+    text-decoration: none;
+}
+
+#search {
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 1px 1px lightgray;
+}
+
+.t-order i {
+    font-size: 20px;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+.t-order a:hover {
+    animation-name: searching;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    text-decoration: none;
+    animation-fill-mode: forwards;
+}
+
+@keyframes searching {
+    10% {
+        color: rgba(242, 120, 75, 0.2);
+    }
+    30% {
+        color: rgba(242, 120, 75, 0.4);
+    }
+    50% {
+        color: rgba(242, 120, 75, 0.6);
+    }
+    70% {
+        color: rgba(242, 120, 75, 0.8);
+    }
+    100% {
+        color: rgba(242, 120, 75, 1);
+    }
+}
+
+.misc {
+    padding: 12.5px 5px;
+}
+
+.misc i {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.main_bar {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 1050px;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-items:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+.new-items {
+    margin: 20px;
+}
+
+.main_bar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_bar ul li {
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#carouselExampleIndicators {
+    margin-left: 10px;
+    width: 99%;
+    /* height: 550px; */
+}
+
+#button {
+    box-shadow: 2px 2px 1px blue;
+}
+
+/* .carousel-item{
+    $carousel-control-color: blue;
+} */
+
+.carousel-control-next-icon {
+    margin-left: 60%;
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+    margin-right: 60%;
+}
+
+.heading {
+    font-size: large;
+    font-weight: bold;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.row {
+    padding: 0px 10px;
+}
+
+.col {
+    width: 150px;
+    font-size: 15px !important;
+}
+
+.container>.row {
+    text-decoration: underline;
+}
+
+.seperate-all {
+    margin: 10px 5px;
+    background-color: lightgray;
+    display: flex;
+}
+
+.card-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.card {
+    margin: 10px 5px;
+    padding: 0px;
+    height: 90%;
+    width: 90% !important;
+}
+
+.btn {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    background-color: lightgray;
+    opacity: 0.7;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: black;
+    opacity: 0.7;
+    color: lightgray;
+    border: none;
+}
+
+.Shop_new_arrivals {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 20px 15px;
+}
+
+.dash {
+    width: 10%;
+}
+
+.text {
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.carousel-item .card {
+    width: 24.5% !important;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.carousel-item .card img {
+    /* 
+border: 1px solid red; */
+}
+
+.card-carousel .image-slideshow .carousel-item .card .btn {
+    width: 100%;
+    left: 0px;
+    border-radius: 0px;
+    background-color: darkgray;
+    opacity: 1;
+}
+
+.gallery {
+    margin: 15px 10px;
+}
+
+.gallery .container .row .col img {
+    width: 100%;
+}
+
+.gal_desc {
+    text-decoration: none !important;
+    font-size: 20px;
+}
+
+.aboutus {
+    width: 80%;
+    height: 100px;
+    overflow: scroll;
+    margin: auto;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin: 20px  0px 0px 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+
+
+.footer .container .row{
+    padding: 10px;
+}
+.end p{
+    text-align: center;
+    font-size: 20px;
+}
